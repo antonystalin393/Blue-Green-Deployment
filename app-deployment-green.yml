@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: app
-        image: dockerreg.stalinworkhub.in/NodeJs:green  # Replace with your Green version image
+        image: dockerreg.stalinworkhub.in/nodejs:green  # Replace with your Green version image
         env:
         - name: DB_HOST
           value: "mysql"  # MySQL service name
